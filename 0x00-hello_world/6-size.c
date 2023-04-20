@@ -6,12 +6,14 @@
 int main(void)
 {
 int i;
-double d;
+long int li;
+long long int lli;
 char c;
 float f;
-printf("size of an int is :%lu.\n", (unsigned long)sizeof(i));
-printf("size of a double is :%lu.\n", (unsigned long)sizeof(d));
-printf("size of a char is :%lu.\n", (unsigned long)sizeof(c));
-printf("size of an float is :%lu.\n", (unsigned long)sizeof(f));
+printf("size of an char is :%lu.\n" ,(unsigned long)sizeof(c));
+printf("size of an int is :%lu.\n" ,(unsigned long)sizeof(i));
+printf("size of a long int is :%lu.\n" ,(unsigned long)sizeof(li));
+printf("size of a long long int is :%lu.\n" ,(unsigned long)sizeof(lli));
+printf("size of an float is :%lu.\n" ,(unsigned long)sizeof(f));
 return(0);
 }
