@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main -the code prints the script to the standard error
+ * main -the code prints a string to the standard error
  * Returns 1 (Success)
  */
 int main(void)
